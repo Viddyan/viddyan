@@ -1,0 +1,125 @@
+.courses {
+  background-color: #fafafa;
+  display: flex;
+}
+
+.container {
+  margin: auto;
+}
+
+.img-mastercover {
+  width: 400px;
+  height: 220px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #c2bdbd;
+  /* border-radius: 10px 10px 0 0; */
+  /* position: relative; */
+  transition: 0.3s;
+}
+.img-mastercover:hover {
+  opacity: 0.5;
+}
+
+.img-mastercover-blog:hover {
+  opacity: 0.5;
+}
+
+.img-mastercover {
+  background-image: url(assets/images/promo-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  cursor: pointer;
+}
+
+.img-mastercover-blog {
+  cursor: pointer;
+  width: 400px;
+  height: 140px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #c2bdbd;
+  transition: 0.3s;  
+}
+.img-mastercover:hover .play-button {
+  display: flex;
+  z-index: 2;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  cursor: pointer;
+}
+
+
+.masterclass {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+
+}
+
+.card-masterclass {
+  flex: 1 1 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text-area {
+  width: 400px;
+  background-color: #fafafa;
+  padding: 15px;
+  border: 1px solid #c2bdbd;;
+  margin-bottom: 25px;
+  /* border-radius: 0 0 10px 10px; */
+}
+
+.card-text-area:hover .img-mastercover {
+  opacity: 0.5;
+}
+
+.card-info-top {
+  display: flex;
+  justify-content: space-between; 
+}
+.card-info-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing, .instructeur{   
+    font-size: 16px;
+    height: 30px;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #025aa5;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+
+.instructeur{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: green;
+
+}
+
+a{
+  text-decoration: none !important; 
+}
+
+
+
