@@ -1,14 +1,14 @@
 .courses {
   background-color: #fafafa;
-  display: flex;
+  /* display: flex; */
 }
 
 .container {
-  margin: auto;
+  margin: 0 auto;
 }
 
 .img-mastercover {
-  width: 400px;
+  /* width: 400px; */
   height: 220px;
   margin: 0;
   padding: 0;
@@ -58,15 +58,16 @@
 
 
 .masterclass {
+  flex: 1 1 400px;
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
 
 }
 
 .card-masterclass {
-  flex: 1 1 400px;
-  width: 400px;
+  flex: 1 1 0px;
+  /* width: 400px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
