@@ -8,7 +8,7 @@
 }
 
 .img-mastercover {
-  /* width: 400px; */
+  width: 360px;
   height: 220px;
   margin: 0;
   padding: 0;
@@ -35,7 +35,7 @@
 
 .img-mastercover-blog {
   cursor: pointer;
-  width: 400px;
+  width: 360px;
   height: 140px;
   margin: 0;
   padding: 0;
@@ -58,7 +58,7 @@
 
 
 .masterclass {
-  flex: 1 1 400px;
+  flex: 1 1 360px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -67,7 +67,7 @@
 
 .card-masterclass {
   flex: 1 1 0px;
-  /* width: 400px; */
+  width: 360px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,7 +75,7 @@
 }
 
 .card-text-area {
-  width: 400px;
+  width: 360px;
   background-color: #fafafa;
   padding: 15px;
   border: 1px solid #c2bdbd;;
