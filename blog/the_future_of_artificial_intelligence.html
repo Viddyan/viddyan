@@ -225,26 +225,7 @@
     <!-- Combined JavaScript -->
     <script>
         // Lazy load images
-        document.addEventListener("DOMContentLoaded", function() {
-            const images = document.querySelectorAll('img[loading="lazy"]');
-            
-            if ('IntersectionObserver' in window) {
-                const observer = new IntersectionObserver((entries) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            const img = entry.target;
-                            img.src = img.dataset.src;
-                            observer.unobserve(img);
-                        }
-                    });
-                });
-
-                images.forEach(img => {
-                    img.dataset.src = img.src;
-                    img.removeAttribute('src');
-                    observer.observe(img);
-                });
-            }});
+       document.addEventListener("DOMContentLoaded",function(){const images=document.querySelectorAll('img[loading="lazy"]');if('IntersectionObserver' in window){const observer=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting){const img=entry.target;img.src=img.dataset.src;observer.unobserve(img)}})});images.forEach(img=>{img.dataset.src=img.src;img.removeAttribute('src');observer.observe(img)})}})
 
             // Initialize Google Ads
         //     const ads = document.querySelectorAll('.adsbygoogle');
