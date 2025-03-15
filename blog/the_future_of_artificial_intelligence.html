@@ -598,10 +598,10 @@ footer {
             try {
                 await navigator.clipboard.writeText(window.location.href);
                 alert('Link copied to clipboard!');
+            } catch (err) {
+                alert('Failed to copy:', err);
             }
-            catch(err){
-                alert(err);
-            }
+        }
 
         function shareOnWhatsApp() {
         window.open(
