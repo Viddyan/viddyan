@@ -60,4 +60,13 @@
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
+
+    
+    <url>
+        <loc>https://www.example.com/blog/Google-Gemini-in-Android-Auto-A-Troubling-Rollout--AI-in-Cars---TechNewsWorld</loc>
+        <lastmod>2025-03-22</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
 </urlset>
+    
