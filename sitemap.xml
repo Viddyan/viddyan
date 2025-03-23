@@ -49,13 +49,13 @@
 
         <!-- Sample Blog Post -->
     <url>
-        <loc>https://www.example.com/blog/how-to-learn-javascript</loc>
+        <loc>https://www.viddyan.com/blog/how-to-learn-javascript</loc>
         <lastmod>{current_date}</lastmod>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
     <url>
-        <loc>https://www.example.com/blog/Monolithic-vs-Microservices-Which-Architecture-is-Best-for-You</loc>
+        <loc>https://www.viddyan.com/blog/Monolithic-vs-Microservices-Which-Architecture-is-Best-for-You</loc>
         <lastmod>2025-03-22</lastmod>
         <changefreq>daily</changefreq>
         <priority>1</priority>
@@ -63,8 +63,15 @@
 
     
     <url>
-        <loc>https://www.example.com/blog/Google-Gemini-in-Android-Auto-A-Troubling-Rollout--AI-in-Cars---TechNewsWorld</loc>
+        <loc>https://www.viddyan.com/blog/Google-Gemini-in-Android-Auto-A-Troubling-Rollout--AI-in-Cars---TechNewsWorld</loc>
         <lastmod>2025-03-22</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.viddyan.com/blog/Opera-Adds-Agentic-AI-to-Its-Browser--TechNewsWorld</loc>
+        <lastmod>2025-03-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
