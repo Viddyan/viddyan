@@ -75,5 +75,12 @@
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
-</urlset>
+
     
+    <url>
+        <loc>https://www.viddyan.com/blog/Galaxy-S25-Ultra-vs-iPhone-My-Switch-After-18-Years---Viddyan</loc>
+        <lastmod>2025-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
+</urlset>
