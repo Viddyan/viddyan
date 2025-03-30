@@ -118,4 +118,11 @@
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
+    
+    <url>
+        <loc>https://www.viddyan.com/blog/Bill-Gates-on-AI--Jobs-Future-Proof-Careers---Viddyan</loc>
+        <lastmod>2025-03-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
 </urlset>
