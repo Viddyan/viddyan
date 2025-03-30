@@ -98,4 +98,11 @@
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
+    
+    <url>
+        <loc>https://www.viddyan.com/blog/Google-Chronoscape-Travel-Through-Time-with-Maps--Earth---Viddyan</loc>
+        <lastmod>2025-03-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
 </urlset>
