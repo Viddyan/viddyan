@@ -90,4 +90,12 @@
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
+
+    
+    <url>
+        <loc>https://www.viddyan.com/blog/Google-Pixel-9a-India-Launch-Release-Date--Specs---Viddyan</loc>
+        <lastmod>2025-03-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
 </urlset>
