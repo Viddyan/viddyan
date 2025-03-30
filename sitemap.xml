@@ -105,4 +105,10 @@
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
+    <url>
+        <loc>https://www.viddyan.com/blog/OpenAI-Warns-AI-Cheating--Reward-Hacking---Viddyan</loc>
+        <lastmod>2025-03-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
 </urlset>
