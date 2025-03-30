@@ -50,7 +50,7 @@
         <!-- Sample Blog Post -->
     <url>
         <loc>https://www.viddyan.com/blog/how-to-learn-javascript</loc>
-        <lastmod>{current_date}</lastmod>
+        <lastmod>2025-03-30</lastmod>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
